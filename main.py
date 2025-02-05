@@ -15,7 +15,7 @@ pdf.set_font("Arial", size=12)
 pdf.multi_cell(200, 10, txt=formatted_emails, align='L')
 
 # Save the PDF file
-pdf_file_name = "Validate3,space.pdf"
+pdf_file_name = "Validate2,space.pdf"
 pdf.output(pdf_file_name)
 
 # Step 4: Upload PDF to Wasabi
