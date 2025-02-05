@@ -6,7 +6,7 @@ with open("list.txt", "r") as file:
     email_list = file.read()
 
 # Step 2: Format the email list (one per line)
-formatted_emails = "\n".join(email.strip() for email in email_list.split(","))
+formatted_emails = ",\n".join(email.strip() for email in email_list.split(",")) + ","
 
 # Step 3: Generate a PDF
 pdf = FPDF()
